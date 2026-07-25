@@ -24,5 +24,5 @@ int searchInsert(int* nums, int numsSize, int target)
             return i+1;
         }
     }
-    return 0;
+    return 0; // In retrospect, I should've thought of biary search :( 
 }
